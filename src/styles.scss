@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+//RESET
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap');
+
+//global
+
+body{
+  font-family: 'Jost', sans-serif;
+}

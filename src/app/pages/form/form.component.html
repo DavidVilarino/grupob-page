@@ -1,0 +1,26 @@
+<div class="container">
+<div class=" b_div">
+  <div class="h1_div">
+   <!-- <h1>Complete our database</h1> -->
+  </div>
+  <div class="border_div">
+  <section>
+    <h1>Complete our database</h1>
+    <form (ngSubmit)="onSubmit()" [formGroup] = "carForm">
+      <p>brand:</p>
+      <input type="text" formControlName="brand" placeholder="ex. Audi">
+      <p>model:</p>
+      <input type="text" formControlName="model" placeholder="ex. a4">
+      <p> year:</p>
+      <input type="text" formControlName="year" placeholder="ex. 1980">
+      <p>Image route:</p>
+      <input type="text" formControlName="image" placeholder="ex. http://cars.com/img.jpg">
+      <div class="button_div">
+      <button>post</button>
+      </div>
+      </form>
+  </section>
+  </div>
+  </div>
+</div>
+

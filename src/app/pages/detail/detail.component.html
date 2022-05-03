@@ -1,0 +1,13 @@
+<div>
+  <h1 class="title">Details car</h1>
+<div *ngIf="car">
+  <img src="{{car.image}}" alt="">
+  <h1>{{car.brand}}</h1>
+  <p>{{car.model}}</p>
+  <p>{{car.year}}</p>
+  <div class="button_div">
+    <button routerLink="/form">modify</button>
+    <button (click)="deleteCar(car._id)">delete</button>
+  </div>
+</div>
+</div>

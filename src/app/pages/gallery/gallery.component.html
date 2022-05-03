@@ -1,0 +1,11 @@
+<div class="container">
+  <h1> Cars gallery</h1>
+<div class="cards">
+  <div *ngFor="let car of cars">
+    <img [routerLink]="['/gallery', car._id]" src="{{car.image}}" alt="pic">
+    <h3>{{car.brand}}</h3>
+    <h4>{{car.model}}</h4>
+    <h4>{{car.year}}</h4>
+  </div>
+  </div>
+</div>

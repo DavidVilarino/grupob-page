@@ -1,0 +1,41 @@
+div{
+  margin: 0 auto;
+  padding-top: 50px;
+  max-width: 1080px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .title{
+    text-align: center;
+  }
+  h1{
+    text-transform: capitalize;
+
+  }
+   img{
+     width: 700px;
+     height: 450px;
+
+
+   }
+}
+.button_div{
+  padding:0px;
+  display: flex;
+  flex-direction: row;
+
+}
+button{
+  margin:5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  color: white;
+   &:hover{
+     background-color:grey;
+   }
+  }
